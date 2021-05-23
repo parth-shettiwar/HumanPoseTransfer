@@ -13,6 +13,9 @@ Given a reference person image x and a target pose p , our goal is to generate a
 1)We leverage the recent StyleGan Architecture to solve the problem of Human Pose Transfer using appropriate loses as mentioned in Progressive Attention Transfer Paper  
 2)We show qualitative results on the Deep Fashion Dataset to evaluate the performance of our Pose Transfer Network  
 
+#### Dataset
+We have used Deep Fashion Dataset. Follow the [instructions](https://github.com/tengteng95/Pose-Transfer) for Deep Fashion Dataset Preparation
+
 #### Network Architecture
 ![Architecture](Results/Architecture.png)
 Our main intuition was to understand the pose transfer problem as a style transfer proble. We adopted this architecture from [StyleGan](https://arxiv.org/pdf/1812.04948.pdf) and used the standard pose transfer loses from [Progressive Attention Transfer Mechanism](https://arxiv.org/pdf/1904.03349.pdf). Following are some of the results produced (Epoch1, Epoch11, Epoch19, Epoch24, Epoch32 in order) using this naive architecture and shows the idea is promising.
