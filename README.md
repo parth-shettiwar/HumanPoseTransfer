@@ -4,7 +4,7 @@ In this project, we tried to tackle a core computer vision problem "Human Pose T
 1) Parth Shettiwar
 2) Prajval Nakrani
 3) Rathod Harekrissna
-4)Utkarsh Bhalode
+4) Utkarsh Bhalode
 
 #### Problem Statement  
 Given a reference person image x and a target pose p , our goal is to generate a photorealistic image x’ for that person but in pose p. 
