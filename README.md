@@ -14,7 +14,7 @@ Given a reference person image x and a target pose p , our goal is to generate a
 2)We show qualitative results on the Deep Fashion Dataset to evaluate the performance of our Pose Transfer Network  
 
 #### Dataset
-We have used Deep Fashion Dataset. Follow the [instructions](https://github.com/tengteng95/Pose-Transfer) for Deep Fashion Dataset Preparation
+We have used Deep Fashion Dataset which has a clean background. Follow the [instructions](https://github.com/tengteng95/Pose-Transfer) for Deep Fashion Dataset Preparation
 
 #### Network Architecture
 ![Architecture](Results/Architecture.png)
